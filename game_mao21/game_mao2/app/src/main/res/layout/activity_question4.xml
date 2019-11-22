@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/q4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/b14"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Question1Activity">
+
+
+    <TextView
+        android:id="@+id/round1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:text="欢迎来到关卡4"
+        android:fontFamily="@font/qingkebenyuesong"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/round1_detail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/qingkebenyuesong"
+        android:text="@string/round4_detail"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_huida"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/yuan_botton"
+        android:fontFamily="@font/qingkebenyuesong"
+        android:gravity="center"
+        android:text="@string/round_huida"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_q11"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/qingkebenyuesong"
+        android:text="@string/text_q41"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/text_answer"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/text_answerhint"
+        android:fontFamily="@font/qingkebenyuesong"
+        android:inputType="textPersonName"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_audoi"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/voice"
+        android:textSize="30sp" />/>
+
+    <Button
+        android:id="@+id/btn_commit1"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yuanjiao_button"
+        android:text="@string/text_answersure"
+        android:fontFamily="@font/qingkebenyuesong"
+        android:textColor="#605f5f"
+        android:textSize="30sp" />
+</LinearLayout>
